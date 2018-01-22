@@ -33,7 +33,7 @@ module.exports = {
     //   port: 9001,
     compress: true,
     hot: true,
-    open: true
+    open: false
   },
   module: {
     rules: [
@@ -44,7 +44,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             cacheDirectory: true,
-            presets: ['react', 'env'],
+            presets: ['react', 'env', "stage-2"],
             "plugins": ["transform-object-rest-spread"]
           }
         }
