@@ -44,7 +44,8 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             cacheDirectory: true,
-            presets: ['react', 'env']
+            presets: ['react', 'env'],
+            "plugins": ["transform-object-rest-spread"]
           }
         }
       },
