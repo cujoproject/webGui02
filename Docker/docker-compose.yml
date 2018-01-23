@@ -6,4 +6,4 @@ services:
     image: webgui02
     container_name: webgui02
     ports:
-     - "8080:8080"
+     - "7080:7080"

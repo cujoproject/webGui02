@@ -30,7 +30,8 @@ module.exports = {
   watch: true,
   devServer: {
     contentBase: BUILD_DIR,
-    port: 9001,
+    host:'0.0.0.0',
+    port: 7080,
     compress: true,
     hot: true,
     open: true
