@@ -33,7 +33,7 @@ module.exports = {
     //   port: 9001,
     compress: true,
     hot: true,
-    open: false
+    open: true
   },
   module: {
     rules: [

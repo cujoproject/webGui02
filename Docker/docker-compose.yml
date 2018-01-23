@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  webgui02:
+    restart: always
+    build: ./docker/
+    image: webgui02
+    container_name: webgui02
+    ports:
+     - "8080:8080"
